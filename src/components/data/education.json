@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "role": "Chemical Engineering (CGPA of 8.25)",
+    "organisation": "Malaviya National Institute of Technology Jaipur",
+    "startDate": "May, 2021",
+    "endDate": "Present",
+    "location": "Jaipur, INDIA",
+    "experiences": [
+      "Malaviya National Institute of Technology Jaipur"
+    ],
+    "imageSrc": "company/university.png"
+  },
+  {
+    "id": 2,
+    "role": "Intermediate (Percentage of 93.2)",
+    "organisation": "Pratap Higher Secondary School",
+    "startDate": "July, 2020",
+    "endDate": "July, 2021",
+    "location": "Sheopur, INDIA",
+    "experiences": [
+      "Pratap Higher Secondary School"
+    ],
+    "imageSrc": "company/university.png"
+  },
+  {
+    "id": 3,
+    "role": "Matriculation (Percentage of 93.1)",
+    "organisation": "Jeevan Academy School",
+    "startDate": "Apr, 2021",
+    "endDate": "Jun, 2020",
+    "location": "Sheopur, INDIA",
+    "experiences": [
+      "Jeevan Academy School"
+    ],
+    "imageSrc": "company/university.png"
+  }
+]
