@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
   --bg-color: rgb(40, 47, 97);
@@ -179,4 +183,57 @@ a {
 
 .contact-icon .items .icons {
   font-size: 2rem;
+}
+
+@media (max-width:1024px) {
+  .ex{
+    width:500px
+  }
+  .ex-items{
+    width: 500px;
+  }
+  .home .left{
+     margin-right: 10px;
+     width: 500px;
+  }
+  
+}
+@media (max-width:658px){
+    .home .left{
+      width: 300px;
+    }
+}
+@media (max-width:577px){
+  .skills{
+    width: 80%;
+  }
+  .ex{
+    width:90%;
+  }
+  .ex-items{
+    width: 90%;
+  }
+  .nav_bar .nav_items{
+    padding: 4px;
+    font-size: medium;
+  }
+  .projects{
+    margin-left: 8%;
+  }
+  .skills .items .item{
+    font-size: small;
+  }
+}
+@media (max-width:480px){
+  .projects{
+    margin-left: 5%;
+  }
+  .nav_bar .nav_items{
+    font-size: small;
+  }
+}
+@media (max-width: 410px){
+  .projects{
+    margin-left:2%;
+  }
 }
